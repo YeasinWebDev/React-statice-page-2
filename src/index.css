@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+#root{
+  position: absolute; 
+  width: 550px;
+  height: 704px; 
+  margin: 5vw 35vw;
+  background-color: rgba(128, 128, 128, 0.132);
+  font-family: 'Inter', sans-serif;
+  border-radius: 10px;
+}
+
+#box{
+  border-radius: 10px;
+}
+
+nav{
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 550px;
+  height: 40px;
+  background: #F55A5A;
+  color: #FFF;
+}
+
+nav h1{
+  position: relative;
+  height: 40px;
+  padding-top: 5px;
+  margin: 0 9vw;
+  white-space: nowrap;
+}
+
+/* main */
+section{
+  margin-top: 10px;
+  padding: 20px;
+
+}
+.Card{
+  display: flex;
+  align-items: center;
+}
+
+.loc-icons{
+  color: #ff0000;
+}
+
+#header span{
+  letter-spacing:  1.741px;
+  color: #2B283A; 
+}
+
+button{
+  border: none;
+  color: #918E9B; 
+  background: transparent;
+  font-size: 10.24px; 
+  font-weight: 400; 
+  text-decoration-line: underline; 
+  margin-left: 10px;
+}
+
+#title{
+  color: #2B283A;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin:10px 0;
+}
+
+#date{
+  color: #2B283A;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#discription{
+  color: #2B283A;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+#img{
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 125px;
+  height: 168px; 
+  margin-right: 20px;
+}
